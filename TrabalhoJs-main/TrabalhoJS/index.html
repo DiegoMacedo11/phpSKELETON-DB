@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Acadêmico</title>
+    <link rel="icon" type="image/png" href="imagens/LOGO_TRABALHO.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="imagens/LOGO_TRABALHO.png" alt="logo"></div>
+            <div class="language-switch">
+                <button class="flag-button" data-lang="pt">🇧🇷</button>
+                <button class="flag-button" data-lang="en">🇺🇸</button>
+            </div>
+            <button id="dark-mode-toggle" class="mode-button" data-translate="darkMode">Modo Escuro</button>
+            <button id="light-mode-toggle" class="mode-button" data-translate="lightMode">Modo Claro</button>
+
+            <ul class="menu">
+                <li><a href="#contato" data-translate="contact">Contato</a></li>
+                <li><a href="#academicos" data-translate="academics">Acadêmicos</a></li>
+            </ul>
+        </nav>
+      </header>
+    <main>
+        <h1 data-translate="title">Apresentando nossas conquistas acadêmicas</h1>
+        <section id="slideshow">
+            <div class="slide">
+                <img src="image1.jpg" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="image2.jpg" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="image3.jpg" alt="Imagem 3">
+            </div>
+        </section>
+
+        <section id="apresentacao">
+            <h2 data-translate="presentation">Apresentação</h2>
+            <p data-translate="hello">Olá! Somos uma equipe de acadêmicos dedicados, prontos para compartilhar nossas realizações acadêmicas e
+                projetos com você.</p>
+            <p data-translate="team">Equipe: Nome 1 (RA), Nome 2 (RA), Nome 3 (RA)</p>
+            <p data-translate="languages">Linguagens de Programação: HTML, CSS, JavaScript, Python, C++</p>
+        </section>
+
+        <section id="academicos">
+            <div class="academico">
+                <img src="academico1.jpg" alt="Imagem Acadêmico 1">
+                <h2 data-translate="academic1Name">Nome do Acadêmico 1</h2>
+                <p data-translate="academic1RA">RA: RA do Acadêmico 1</p>
+                <p data-translate="academic1Languages">Linguagens de Programação: HTML, CSS, JavaScript</p>
+                <div class="redes-sociais">
+                    <a href="https://www.linkedin.com/in/linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/github1" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/instagram1" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/facebook1" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/whatsapp1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="academico">
+                <img src="academico2.jpg" alt="Imagem Acadêmico 2">
+                <h2 data-translate="academic2Name">Nome do Acadêmico 2</h2>
+                <p data-translate="academic2RA">RA: RA do Acadêmico 2</p>
+                <p data-translate="academic2Languages">Linguagens de Programação: Python, Java, Ruby</p>
+                <div class="redes-sociais">
+                    <a href="https://www.linkedin.com/in/linkedin2" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/github2" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/instagram2" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/facebook2" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/whatsapp2" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="academico">
+                <img src="academico3.jpg" alt="Imagem Acadêmico 3">
+                <h2 data-translate="academic3Name">Nome do Acadêmico 3</h2>
+                <p data-translate="academic3RA">RA: RA do Acadêmico 3</p>
+                <p data-translate="academic3Languages">Linguagens de Programação: C++, JavaScript, PHP</p>
+                <div class="redes-sociais">
+                    <a href="https://www.linkedin.com/in/linkedin3" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/github3" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/instagram3" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/facebook3" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/whatsapp3" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="imagens/LOGO_TRABALHO.png" alt="Logo do Portfólio Acadêmico">
+            </div>
+            <div class="footer-academicos">
+                <h3 data-translate="ourAcademics">Nossos Acadêmicos</h3>
+                <div class="academico-dropdown">
+                    <div class="academico-item">
+                        <img src="academico1.jpg" alt="Imagem Acadêmico 1">
+                        <div class="academico-dropdown-content">
+                            <a href="academico1.html">Perfil</a>
+                            <a href="academico1-contato.html">Contato</a>
+                            <a href="academico1-redes-sociais.html">Redes Sociais</a>
+                        </div>
+                    </div>
+                    <!-- Conteúdo do segundo acadêmico -->
+                    <div class="academico-item">
+                        <img src="academico2.jpg" alt="Imagem Acadêmico 2">
+                        <div class="academico-dropdown-content">
+                            <a href="academico2.html">Perfil</a>
+                            <a href="academico2-contato.html">Contato</a>
+                            <a href="academico2-redes-sociais.html">Redes Sociais</a>
+                        </div>
+                    </div>
+                    <!-- Conteúdo do terceiro acadêmico -->
+                    <div class="academico-item">
+                        <img src="academico3.jpg" alt="Imagem Acadêmico 3">
+                        <div class="academico-dropdown-content">
+                            <a href="academico3.html">Perfil</a>
+                            <a href="academico3-contato.html">Contato</a>
+                            <a href="academico3-redes-sociais.html">Redes Sociais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h3 data-translate="contactUs">Entre em Contato</h3>
+                <p>Telefone: (123) 456-7890</p>
+                <p>Email: contato@portfoliocademico.com</p>
+            </div>
+            <div class="footer-social">
+                <h3 data-translate="connectWithUs">Conecte-se Conosco</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/seufacebook" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/seutwitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/seulinkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/seuinstagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-copyright">© 2023 Portfólio Acadêmico</p>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            // Define o idioma padrão
+            let currentLanguage = "pt";
+
+            // Quando os botões de ícones forem clicados, alternar entre tradução e conteúdo original
+            $(".flag-button").click(function () {
+                const lang = $(this).data("lang");
+                if (lang !== currentLanguage) {
+                    translatePage(lang);
+                    currentLanguage = lang;
+                }
+            });
+
+            function translatePage(language) {
+                const translations = {
+                    "pt": {
+                    "title": "Apresentando nossas conquistas acadêmicas",
+                    "presentation": "Apresentação",
+                    "hello": "Olá! Somos uma equipe de acadêmicos dedicados, prontos para compartilhar nossas realizações acadêmicas e projetos com você.",
+                    "team": "Equipe: Nome 1 (RA), Nome 2 (RA), Nome 3 (RA)",
+                    "languages": "Linguagens de Programação: HTML, CSS, JavaScript, Python, C++",
+                    "academic1Name": "Nome do Acadêmico 1",
+                    "academic1RA": "RA: RA do Acadêmico 1",
+                    "academic1Languages": "Linguagens de Programação: HTML, CSS, JavaScript",
+                    "academic2Name": "Nome do Acadêmico 2",
+                    "academic2RA": "RA: RA do Acadêmico 2",
+                    "academic2Languages": "Linguagens de Programação: Python, Java, Ruby",
+                    "academic3Name": "Nome do Acadêmico 3",
+                    "academic3RA": "RA: RA do Acadêmico 3",
+                    "academic3Languages": "Linguagens de Programação: C++, JavaScript, PHP",
+                    "ourAcademics": "Nossos Acadêmicos",
+                    "contactUs": "Entre em Contato",
+                    "contact": "Contato",
+                    "academics": "Acadêmicos",
+                    "connectWithUs": "Conecte-se Conosco"
+                },
+                "en": {
+                    "title": "Presenting our academic achievements",
+                    "presentation": "Presentation",
+                    "hello": "Hello! We are a team of dedicated academics, ready to share our academic achievements and projects with you.",
+                    "team": "Team: Name 1 (ID), Name 2 (ID), Name 3 (ID)",
+                    "languages": "Programming Languages: HTML, CSS, JavaScript, Python, C++",
+                    "academic1Name": "Academic 1 Name",
+                    "academic1ID": "ID: Academic 1 ID",
+                    "academic1Languages": "Programming Languages: HTML, CSS, JavaScript",
+                    "academic2Name": "Academic 2 Name",
+                    "academic2ID": "ID: Academic 2 ID",
+                    "academic2Languages": "Programming Languages: Python, Java, Ruby",
+                    "academic3Name": "Academic 3 Name",
+                    "academic3ID": "ID: Academic 3 ID",
+                    "academic3Languages": "Programming Languages: C++, JavaScript, PHP",
+                    "ourAcademics": "Our Academics",
+                    "contactUs": "Contact Us",
+                    "contact": "Contact",
+                    "academics": "Academics",
+                    "connectWithUs": "Connect With Us"
+                },
+            };
+                // Loop through all elements with data-translate attribute
+                $('[data-translate]').each(function () {
+                    const key = $(this).data('translate');
+                    const translation = translations[language][key];
+
+                    // Update the element's text content with the translation
+                    $(this).text(translation);
+                });
+            }
+        });
+
+        $(document).ready(function () {
+    // Define o modo padrão
+    let currentMode = "light-mode";
+
+    // Verifica o armazenamento local para determinar o modo preferido
+    const storedMode = localStorage.getItem('mode');
+    if (storedMode) {
+        toggleMode(storedMode); // Certifique-se de ativar o modo armazenado
+    }
+
+    $('#dark-mode-toggle').click(function () {
+        toggleMode("dark-mode");
+    });
+
+    $('#light-mode-toggle').click(function () {
+        toggleMode("light-mode");
+    });
+
+    function toggleMode(newMode) {
+        $('body').removeClass(currentMode).addClass(newMode);
+        currentMode = newMode;
+        localStorage.setItem('mode', newMode);
+    }
+
+    // Efeitos de transição ao rolar
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('nav').css('background-color', currentMode === 'dark-mode' ? '#0d1117' : '#24292e');
+            $('nav').css('color', currentMode === 'dark-mode' ? '#ffffff' : '#ffffff');
+            $('main').css('margin-top', '60px');
+        } else {
+            $('nav').css('background-color', currentMode === 'dark-mode' ? 'transparent' : 'transparent');
+            $('nav').css('color', currentMode === 'dark-mode' ? '#ffffff' : '#ffffff');
+            $('main').css('margin-top', '160px');
+        }
+    });
+});
+    </script>
+    
+</body>
+</html>

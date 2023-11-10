@@ -1,0 +1,188 @@
+/* Estilos gerais */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #fff; /* Cor de fundo padrão */
+  color: #000; /* Cor do texto padrão */
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho (header) */
+header {
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  color: #000; /* Cor das letras do cabeçalho no light mode */
+  transition: color 0.3s;
+}
+.logo img {
+  width: 100px;
+  height: auto;
+}
+/* Estilos dos botões de idioma e modo (mode buttons) */
+.flag-button,
+.mode-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px; /* Reduz o tamanho dos ícones de modo */
+  opacity: 0.7; /* Torna os ícones de modo mais sutis */
+  margin-right: 10px;
+  font-family: 'Montserrat', sans-serif; /* Adicione a fonte Montserrat ou a fonte desejada */
+  transition: opacity 0.3s;
+}
+
+.flag-button:hover,
+.mode-button:hover {
+  opacity: 1; /* Restaura a opacidade ao passar o mouse sobre os ícones de modo */
+}
+
+/* Estilos dos botões de Modo Escuro e Modo Claro */
+#dark-mode-toggle,
+#light-mode-toggle {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px; /* Diminui o tamanho do botão */
+  font-size: 14px; /* Diminui o tamanho da fonte do botão */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efeito de hover para ambos os botões */
+#dark-mode-toggle:hover, #light-mode-toggle:hover {
+  background-color: #222; /* Cor mais escura no hover */
+}
+
+/* Estilos do conteúdo principal (main) */
+main {
+  background-color: #f2f2f2; /* Cor de fundo do conteúdo principal */
+  margin-top: 160px;
+  padding: 20px;
+  border: 1px solid #ddd; /* Borda ao redor do conteúdo principal */
+}
+
+/* Estilos do slideshow */
+#slideshow {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 1;
+  max-width: 100%;
+  text-align: center;
+}
+
+.slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos dos acadêmicos (academicos) */
+.academicos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.academico {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.academico img {
+  max-width: 100%;
+  height: auto;
+}
+
+.academico h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Estilos do rodapé (footer) */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-academicos,
+.footer-contact,
+.footer-social {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+
+.footer-academicos h3,
+.footer-contact h3,
+.footer-social h3 {
+  font-size: 16px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.footer-logo img {
+  width: 80px;
+  height: auto;
+}
+
+.footer-copyright {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Estilos do modo escuro (dark mode) */
+.dark-mode .slide img {
+  filter: brightness(70%);
+}
+
+/* Estilos para o botão de Modo Escuro no Modo Escuro */
+.dark-mode #dark-mode-toggle {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Estilos para o botão de Modo Claro no Modo Escuro */
+.dark-mode #light-mode-toggle {
+  background-color: #fff;
+  color: #333;
+}
